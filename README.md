@@ -24,7 +24,7 @@ The training script for training the persona-consistency classifier [here](https
 The generation script ([here](https://github.com/majumderb/pabst/blob/main/pabst/run_pplm.py)) uses the persona-consistency model as one of the soft constraints. 
 
 # Citation
-If you find `compac` useful for your research, please cite our paper:
+If you find `pabst` useful for your research, please cite our paper:
 ```BibTex
 @inproceedings{MajumderBMJ21,
   author    = {Bodhisattwa Prasad Majumder and
