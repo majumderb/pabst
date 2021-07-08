@@ -6,7 +6,7 @@ Bodhisattwa Prasad Majumder, Taylor Berg-Kirkpatrick, Julian McAuley, Harsh Jham
 
 Published at Association for Computational Linguistics (ACL), 2021.
 
-![compac](https://github.com/majumderb/compac/blob/master/image/compac.png?raw=true)
+![pabst](https://github.com/majumderb/pabst/blob/main/images/pabst.png?raw=true)
 
 # Data
 
