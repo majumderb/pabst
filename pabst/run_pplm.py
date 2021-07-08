@@ -722,6 +722,7 @@ def run_pplm_example(
         pretrained_model,
         output_hidden_states=True
     )
+    model.resize_token_embeddings(new_num_tokens=50262) # additional token for COMPAC model
     model_weights = torch.load(COMPAC_MODEL, map_location=lambda storage, loc: storage)
     # rename for compatibility
     new_model_weights = OrderedDict([(k.replace('gpt2_model.', ''), v) if k.startswith('gpt2_model') else (k, v) for k, v in model_weights.items()])
